@@ -1,5 +1,6 @@
 import React from "react";
-import dawd from "../assets/img/Rust wtext.jpg"
+import servers from "../assets/img/servers.jpg"
+import rust from "../assets/img/Rust wtext.jpg"
 
 // reactstrap components
 import {
@@ -19,7 +20,7 @@ import {
 function Servers() {
   return (
     <>
-      <div className="section section-tabs" /*style={{ backgroundImage: "url(" + require("assets/img/servers.jpg")}}*/>
+      <div className="section section-tabs" style={{ backgroundImage: `url(${servers})` }}>
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
@@ -27,7 +28,7 @@ function Servers() {
                 <CardHeader >
                   <Nav className="justify-content-center">
                     <NavItem>
-                      <img src={dawd} alt="Logo" /><h1>TSH UK/EU</h1>
+                      <img src={rust} style={{ height: '150px' }} /><h1>TSH UK/EU</h1>
                     </NavItem>
                   </Nav>
                 </CardHeader>

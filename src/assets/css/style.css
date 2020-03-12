@@ -1,0 +1,28 @@
+.fixed-top
+{
+    width: 100%;
+    background-color: #82c3ba;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    text-decoration: none;
+
+}
+
+.hover:hover {
+    cursor: pointer;
+};
+
+.header
+{
+    float: left;
+    top: 100px;
+    bottom: 0px;
+}
+
+.intro
+{
+    float: left;
+    top: 0px;
+    width: 100%;
+}

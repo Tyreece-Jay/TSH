@@ -9,8 +9,6 @@ import Store from "./components/Store.js";
 import Donate from "./components/Donate.js";
 import Footer from "./components/Footer.js";
 
-import CarouselSection from "./components/CarouselSection.js"
-
 function Index() {
   React.useEffect(() => {
     document.body.classList.add("index-page");
@@ -25,18 +23,14 @@ function Index() {
   });
   return (
     <>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></link>
       <Navigation />
-      <div className="wrapper">
-        <Header />
-        <div className="main">
-          <Intro />
-          {/* <CarouselSection /> */}
-          <Servers />
-          {/* <Store /> */}
-          {/* <Donate /> */}
-        </div>
-        <Footer />
-      </div>
+      <Header />
+      <Intro />
+      <Servers />
+      {/* <Store /> */}
+      {/* <Donate /> */}
+      <Footer />
     </>
   );
 }
