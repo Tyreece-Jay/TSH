@@ -9,9 +9,7 @@ function Header() {
 
   return (
     <>
-      <div className="header">
-        <img src={header} />
-      </div>
+      <img src={header} style={{ width: '100%' }} />
     </>
   );
 }

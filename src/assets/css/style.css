@@ -2,11 +2,9 @@
 {
     width: 100%;
     background-color: #82c3ba;
-    overflow: hidden;
     position: fixed;
     top: 0px;
     text-decoration: none;
-
 }
 
 .hover:hover {
@@ -17,7 +15,7 @@
 {
     float: left;
     top: 100px;
-    bottom: 0px;
+    width: 100%;
 }
 
 .intro
@@ -25,4 +23,13 @@
     float: left;
     top: 0px;
     width: 100%;
+    padding: 5%;
+}
+
+.servers
+{
+    float: left;
+    top: 0px;
+    width: 100%;
+    padding: 5%;
 }

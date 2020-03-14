@@ -1,21 +1,17 @@
 /*eslint-disable*/
 import React from "react";
+import "../assets/css/style.css"
 
 // reactstrap component
 import { Container } from "reactstrap";
 
 function Footer() {
   return (
-    <footer className="footer" data-background-color="black" style={{ backgroundColor: '#101324' }}>
+    <footer className="footer">
       <Container>
-        <div className="copyright" id="copyright">
+        <div className="copyright" id="copyright" style={{ float: "Right" }}>
           © {new Date().getFullYear()}, created by{" "}
-          <a
-            href="https://www.invisionapp.com?ref=nukr-dark-footer"
-            target="_blank"
-          >
             TSH
-          </a>
         </div>
       </Container>
     </footer>
