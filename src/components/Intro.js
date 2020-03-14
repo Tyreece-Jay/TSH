@@ -21,7 +21,7 @@ function Intro() {
             <div class="col-sm-4">
               <img src={icon1} style={{ height: '150px' }} />
               <h2 style={{ color: '#82c8ba' }}>24/7 Uptime</h2>
-              <p>Our servers are hosted by an independent hosting service allowiung our servers to have a 24/7 uptime</p>
+              <p>Our servers are hosted by an independent hosting service allowing our servers to have a 24/7 uptime</p>
             </div>
             <div class="col-sm-4">
               <img src={icon2} style={{ height: '150px' }} />
