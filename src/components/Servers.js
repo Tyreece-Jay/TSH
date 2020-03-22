@@ -7,15 +7,6 @@ import "../assets/css/style.css"
 // reactstrap components
 import {
   Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  Row,
-  Col,
   Button
 } from "reactstrap";
 
@@ -34,17 +25,6 @@ function Servers() {
 
   }, []);
 
-  // const useFetch = () => {
-  //   const [response, setResponse] = React.useState(null);
-  //   useEffect(async () => {
-  //       const res = await fetch("https://api.rust-servers.info/status/3466");
-  //       const json = await res.json();
-  //       setResponse(json);
-  //   });
-  //   return response;
-  // };
-
-  // useFetch()]
   if (response !== undefined){
   console.log({response})
     var p = response.name 
