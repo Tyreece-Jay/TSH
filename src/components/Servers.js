@@ -39,7 +39,7 @@ function Servers() {
           <img class="card-img-top" src={rust} />
           <div class="card-body">
             <h2>{response.name} <span class="badge badge-pill badge-secondary">{response.status}</span></h2>
-            <h6>Players: {response.players}/{response.players_max}</h6>
+            <h6 style={{ color: '#82c8ba' }}>Players: {response.players}/{response.players_max}</h6>
             <p>Welcome to the TSH UK/EU Rust Server</p>
             <p>Map and BP wipe every Thursday, max clan size is 4, x2 gathering, custom events, extra loot, custom kits.</p>
             <p>Aiming for a comfortable mix between modded and vanilla. If you have any suggestions or want to be a part of our community, join our Discord.</p>
