@@ -30,7 +30,7 @@ function Navigation() {
             <a class="nav-link" onClick={() => { window.scrollTo(2500, 2500) }} style={{ cursor: "pointer" }}>Donate</a>
           </li> */}
           <li class="nav-item">
-            <a class="nav-link" href="https://discord.gg/WcDk7fD">Discord</a>
+            <a class="nav-link" href="https://discord.gg/yqqKDxE">Discord</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.youtube.com/channel/UCdMzu9dIRED9uxthsmrKKLA?sub_confirmation=1">Youtube</a>
